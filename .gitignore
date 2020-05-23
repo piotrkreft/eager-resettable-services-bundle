@@ -1,0 +1,5 @@
+/var/
+/vendor/
+.idea
+composer.lock
+infection.log

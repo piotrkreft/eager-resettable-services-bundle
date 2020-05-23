@@ -1,0 +1,17 @@
+framework:
+    secret: ''
+    test: true
+
+pk_eager_resettable_services:
+    services: ['pk_reset_service_eager']
+
+services:
+    pk_reset_service_eager:
+        class: PK\Tests\EagerResettableServicesBundle\Fixtures\DependencyInjection\ResetService
+        public: true
+        tags: [{name: 'kernel.reset', method: 'reset'}]
+
+    pk_reset_service_lazy:
+        class: PK\Tests\EagerResettableServicesBundle\Fixtures\DependencyInjection\ResetService
+        public: true
+        tags: [{name: 'kernel.reset', method: 'reset'}]

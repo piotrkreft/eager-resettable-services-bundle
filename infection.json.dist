@@ -1,0 +1,13 @@
+{
+    "source": {
+        "directories": [
+            "src"
+        ]
+    },
+    "logs": {
+        "text": "var/cache/infection.log",
+        "badge": {
+            "branch": "master"
+        }
+    }
+}
