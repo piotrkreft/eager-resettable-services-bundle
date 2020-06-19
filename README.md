@@ -15,7 +15,18 @@ It does not reset managers unless it is being referenced by other services and t
 
 This bundle by the configuration allows you to reconfigure services to be eagerly instantiated within Services Resetter.
 
-## Example
+## Usage
 [example configuration](tests/Fixtures/Resources/config/config.yaml)
 
 Alternatively all services can be eager loaded wth `all_services` configuration flag.
+
+### Testing
+```bash
+composer test
+```
+
+## Changelog
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## License
+The MIT License (MIT). Please see [LICENSE](LICENSE) for more information.
