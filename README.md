@@ -15,6 +15,11 @@ It does not reset managers unless it is being referenced by other services and t
 
 This bundle by the configuration allows you to reconfigure services to be eagerly instantiated within Services Resetter.
 
+## Installation
+```bash
+composer require piotrkreft/eager-resettable-services-bundle
+```
+
 ## Usage
 [example configuration](tests/Fixtures/Resources/config/config.yaml)
 
